@@ -39,7 +39,7 @@ func main() {
 			}
 		}
 		if s {
-			i.Privmsg(e.Arguments[0], responses[rand.Intn(len(responses))-1])
+			i.Privmsg(e.Arguments[0], responses[rand.Intn(len(responses)-1)])
 		}
 	})
 
